@@ -1,0 +1,12 @@
+@import 'bootstrap/bootstrap.scss';
+
+$primary : #f3f4;
+.textos{
+    margin-top: 230px!important;
+}
+
+.fig1{
+    left: 0;
+    bottom: 0;
+    align-self: floor($number: 0);
+}
