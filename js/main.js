@@ -1,4 +1,4 @@
-window.onload = function () {
+function Weather() {
     /**const options = {
         method: 'GET',
         headers: {
@@ -24,7 +24,7 @@ window.onload = function () {
             joketold.innerText = data.temp_c;
         }
     }
-};
+}
 var reportAcudits = [];
 var arr = [];
 function getJoke() {

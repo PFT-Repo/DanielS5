@@ -1,4 +1,4 @@
-window.onload = function () {
+function Weather() {
     /**const options = {
         method: 'GET',
         headers: {
