@@ -6,7 +6,66 @@ $primary : #f3f4;
 }
 
 .fig1{
-    left: 0;
-    bottom: 0;
-    align-self: floor($number: 0);
+   width: 100%;
+}
+#icon_weather{
+    height: auto;
+    width: 100px;
+    border-right: 2px solid black;
+}
+main{
+    height: 80vh;
+}
+.figmedio{
+    width: 60vw;
+}
+nav{
+    div{
+        h1{
+            color: black;
+            margin-left: 20px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+#joketold , #joketold2{
+    max-width: 400px;
+}
+
+.boton{
+    color: black;
+    background-color: #EDC951;
+    background-position: 100px 100px !important;
+    border: 1px solid black;
+
+
+}
+.iconos{
+   font-size: xx-large;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .d{
+        display: none;
+    }
+    main{
+        
+        h1{
+            margin-top: 30px;
+            font-size:medium !important;
+        }
+    }
+    #jokeText{
+        font-size: small;
+    }
+    .figmedio{
+        width: 100vw;
+    }
+    .boton{
+        font-size: small;
+    }
+    .iconos{
+        font-size: x-large;
+     }
 }
